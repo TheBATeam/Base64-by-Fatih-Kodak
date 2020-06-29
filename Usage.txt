@@ -1,0 +1,19 @@
+
+Base64 - Decode/Encode files using the Base64 algorithm.
+
+Call:  base64.exe [-options] <infile|-s> <outfile|-s>
+
+Options:
+          -d --decode        Decode base64 encoded file
+          -e --encode        Encode the given file using the Base64 algorithm
+          -h --help          Print this message
+          -s --stdin/stdout  Read data from stdin/Write data to stdout
+          -v --version       Print version number
+
+Examples: base64.exe -e myfile.exe myfile.txt
+          base64.exe -d myfile.txt myfile.exe
+          base64.exe -e myfile.exe -s > myfile.txt
+          base64.exe -d -s myfile.exe < myfile.txt
+
+by Fatih Kodak
+http://www.f2ko.de
